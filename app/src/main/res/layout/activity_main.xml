@@ -10,6 +10,8 @@
         android:id="@+id/textView_Flashcard_Question"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@drawable/flashcard_question_background"
+        android:elevation="5dp"
         android:gravity="center"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
@@ -21,10 +23,45 @@
         android:id="@+id/textView_Flashcard_Answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:background="@drawable/flashcard_answer_background"
+        android:elevation="5dp"
         android:gravity="center"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:text="@string/flashcard_default_answer"
         android:textSize="40sp"
         android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView_Flashcard_mc1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView_Flashcard_Answer"
+        android:layout_margin="5dp"
+        android:background="@color/flashcardMCBackground"
+        android:gravity="center"
+        android:text="@string/flashcard_default_mc_wrong"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_Flashcard_mc2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView_Flashcard_mc1"
+        android:layout_margin="5dp"
+        android:background="@color/flashcardMCBackground"
+        android:gravity="center"
+        android:text="@string/flashcard_default_mc_correct"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_Flashcard_mc3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView_Flashcard_mc2"
+        android:layout_margin="5dp"
+        android:background="@color/flashcardMCBackground"
+        android:gravity="center"
+        android:text="@string/flashcard_default_mc_wrong"
+        android:textSize="30sp" />
 </RelativeLayout>

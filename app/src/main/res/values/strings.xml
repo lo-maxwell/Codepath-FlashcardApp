@@ -2,4 +2,6 @@
     <string name="app_name">Codepath-FlashcardApp</string>
     <string name="flashcard_default_question">There should be a question here?</string>
     <string name="flashcard_default_answer">There should be an answer here.</string>
+    <string name="flashcard_default_mc_wrong">This is a wrong answer</string>
+    <string name="flashcard_default_mc_correct">This is a correct answer</string>
 </resources>
