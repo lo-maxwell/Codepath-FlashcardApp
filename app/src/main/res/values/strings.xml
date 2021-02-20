@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Codepath-FlashcardApp</string>
+    <string name="flashcard_default_question">There should be a question here?</string>
+    <string name="flashcard_default_answer">There should be an answer here.</string>
 </resources>
