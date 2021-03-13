@@ -15,7 +15,7 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginBottom="5dp"
-        android:src="@drawable/ic_icon_exit" />
+        android:src="@drawable/ic_icon_cancel" />
 
     <ImageView
         android:id="@+id/imageView_save"
