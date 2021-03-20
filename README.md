@@ -11,10 +11,11 @@
 ### App Description
 Flashcard app created as part of the Codepath Intro to Mobile Development course. Currently WIP
 
-### App Walk-though
+### App Walk-though<br>
+Edit: Including recording for preserved data <br>
+<img src="https://github.com/lo-maxwell/Codepath-FlashcardApp/blob/master/Screen%20Recording%202021-03-20%20at%209.44.16%20AM.gif?raw=true" width=200><br>
 
 <img src="https://github.com/lo-maxwell/Codepath-FlashcardApp/blob/master/Screen%20Recording%202021-03-13%20at%2011.36.37%20AM.gif?raw=true" width=200><br>
-
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
